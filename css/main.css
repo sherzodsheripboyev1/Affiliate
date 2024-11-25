@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+.header{
+    width: 1440;
+    height: 85px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+}
+.header-div{
+    width: 1440;
+    padding: 15px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-list{
+    gap: 50px;
+    padding-left: 0;
+ display: flex;
+ justify-content: space-between;
+}
+.sayt-main{
+    width: 1150px;
+    margin-left: 145px;
+}
+.sayt-section1{
+    height: 468;
+    background-color: rgb(227, 235, 241);
+}
+.sayt-div{
+    margin-bottom: 77px;
+    display: flex;
+}
+.sayt-img{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.sayt-webflow{
+    margin-left: 50px;
+}
+.webflow-text{
+   
+    margin-top: 64px;
+    color: rgb(16, 132, 63);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.webflow-titl{
+    width: 468px;
+    height: 156px;
+    display: inline-block;
+    margin-top: 8px;
+    color: rgb(29, 47, 56);
+    font-family: Bitter;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.webflow-text2{
+    width: 430px;
+    margin-top: 22px;
+    color: rgb(51, 51, 51);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.webflow-btn{
+    width: 161px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 64px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(23, 165, 80);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Latest-titl{
+    margin-bottom: 33px;
+    color: rgb(29, 47, 56);
+    font-family: Bitter;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Latest-titl2{
+    color: rgb(29, 47, 56);
+    font-family: Bitter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Latest-text{
+    width: 546px;
+    height: 40px;
+    color: rgb(29, 47, 56);
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Latest-div{
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.Latest-li{
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;  
+}
+.Latest-text{
+    margin-top: 5px;
+    color: rgb(29, 47, 56);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.site-all{
+    margin-top: 90px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 10px;
+}
+.all-text{
+    color: rgb(29, 47, 56);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.praducts-section{
+    margin-bottom: 97px;
+    height: 112px;
+    background-image: url("../images/bag\ img.png");
+    background-repeat: no-repeat;
+    background-position: 100vh:
+}
+.products-div {
+    display: flex;
+    padding: 40px;
+    
+}
+.products-titl{
+    margin-right: 375px; 
+    color: rgb(29, 47, 56);
+    font-family: Bitter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.products-btn{
+    width: 111px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+
+    background: rgb(23, 165, 80);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.reviwes-titl-h2{
+    padding-bottom: 33px;
+    color: rgb(29, 47, 56);
+    font-family: Bitter;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.reviwes-navbar{
+    margin-bottom: 40px;
+}
+.reviwer-li{
+    width: 357px;
+    height: 371px;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+.reviwes-list{
+    display: flex;
+    gap: 40px;
+}
+.reviwes-titl{
+    margin-top: 24px;
+    margin-bottom: 14px;
+    color: rgb(29, 47, 56);
+    font-family: Bitter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.reviwes-text{
+    width: 332px;
+    height: 60px;
+    padding-left: 33px;
+    color: rgb(29, 47, 56);
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
